@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FriendsFragment">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:alpha="0.4"
+        android:padding="10sp"
+        android:src="@drawable/ic_undraw_friends_r511" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/friendsView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</FrameLayout>

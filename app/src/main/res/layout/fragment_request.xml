@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10sp"
+    tools:context=".RequestFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:alpha="0.4"
+        android:src="@drawable/ic_undraw_accept_request_re_d81h" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/requestView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</FrameLayout>
