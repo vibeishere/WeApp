@@ -24,7 +24,9 @@ We-App is a messaging app for individuals. This application was created to give 
 
 ## Technologies Used
 • XML
+
 • Java
+
 • Firebase
 
 # Local Setup
